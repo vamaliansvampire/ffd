@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#06070A"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#D4AF37" stroke-opacity="0.35" stroke-width="1.5"/>
+  <circle cx="32" cy="32" r="20" stroke="url(#nexoraBlue)" stroke-width="2" stroke-dasharray="90 22"/>
+  <circle cx="32" cy="32" r="13" stroke="url(#nexoraGold)" stroke-width="2"/>
+  <path d="M24 41V23L40 41V23" stroke="#F4F4F6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="nexoraGold" x1="19" y1="19" x2="45" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5D77F"/>
+      <stop offset="1" stop-color="#B88E1E"/>
+    </linearGradient>
+    <linearGradient id="nexoraBlue" x1="12" y1="12" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+</svg>

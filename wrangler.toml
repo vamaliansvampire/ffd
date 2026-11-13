@@ -1,0 +1,19 @@
+name = "nexora-ai-api"
+main = "cloudflare/worker.ts"
+compatibility_date = "2025-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nexora-ai-db"
+database_id = "REPLACE_WITH_YOUR_CLOUDFLARE_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "nexora-ai-media"
+
+[vars]
+APP_URL = "https://nexora-ai.pages.dev"
+# Set optional initial admin password override via:
+# wrangler secret put NEXORA_INITIAL_ADMIN_PASSWORD
